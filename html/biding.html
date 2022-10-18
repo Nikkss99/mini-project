@@ -44,13 +44,29 @@
 
     
         <div class="bidbox">
-            <h1 id="name">Art Name</h1>
+            <h1 id="name">Art Name...............</h1>
             <h2 id="artist">Artist Name</h2>
+
+            <div class="button">
+            <input type="button" id="likebutton" onclick="alert('Liked')" value="Like" data-inline="true">
+            <input type="button" id="addbutton" onclick="alert('successfully Added')"  value="Add  to collection" data-inline="true">
+            </div>
+
+            <div class="description">
             <h1 id="description">Description</h1>
-            <p>asjfhjbahvdf dvjhbvhjcksdbvdk bvha<br>
-                hefuhfoahfafafuisgvuabvkjabush<br>
-                cjbadsjjkubcadbcua<br>
-            <h1>Current bid</h1>
+            <p>asjfhjbahvdf dvjhbvhjcksdbvdk bvhaghjvhj jhvhjvhjv hjvhj <br>
+                hefuhfoahfafafuisgvuabvkjabush n nm n jhjhvjhvhjv<br>
+                cjbadsjjkubcadbcuajkbkj hjvhjvhj jhvhjvjhvh <br></p>
+            </div>    
+
+
+            <div class="bid">
+            <h1>Current bid : 500$</h1>
+            <form id="form">
+                <label for="fname">Place your Bid:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <input type="button" id="bidbutton" onclick="alert('Bid placed successfully')" value="Bid" data-inline="true">
+            </form>
         </div>
     </section>
 
@@ -85,3 +101,4 @@
                  </div>
             </div>
     </section>
+</body>
