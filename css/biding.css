@@ -100,7 +100,7 @@ body{
 .selected_img{
     display: flex;
     flex-direction: row;
-    margin-bottom: 25%;
+    margin-bottom: 2%;
     
 }
 .leftimage{
@@ -119,21 +119,6 @@ body{
     padding: 45px 0px 0px 200px;
     
 }
-h1:hover{
-    color: #f524d4;
-    transform: scale(1.1);
-    transition: 1s;
-}
-#name{
-    padding-top: 5%;
-    font-weight: bolder;
-    font-size: 300%; 
-}
-#artist{
-    margin-top: 0;
-}
-
-
 
 
 .container{
@@ -183,3 +168,104 @@ h1:hover{
     transition: ease-in-out 1.3s;
     transform: scale(1.2);
   }
+
+.button{
+ display: flex;
+ justify-content: center;
+ 
+ 
+ 
+ } 
+#likebutton{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 50px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(16, 119, 215);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+#addbutton{
+     border: 0;
+    line-height: 2.5;
+    padding: 0 50px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(164, 50, 150);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+
+}
+
+#name{
+    color: floralwhite;
+    padding-top: 5%;
+    font-weight: bolder;
+    font-size: 300%; 
+    margin-bottom: 0%;
+}
+#artist{
+    margin-bottom: 03%;
+    color:#f524d4;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#description{
+    color: floralwhite;
+    padding-top: 5%;
+    font-weight: bolder;
+    font-size: 300%;
+    margin-bottom: 0%;
+}
+
+.bid{
+    font-size: 200%;
+    color: antiquewhite;
+}
+#bidbutton{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(251, 7, 7);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+    width: 100%;         
+
+}
+#fname {
+    width: 100%;
+    padding-top: 25px;
+    
+}
+.description p:hover{
+    transform: scale(2);
+    transition: 2s;
+    width: 100%;
+}
+.description{
+    color: #f524d4;
+}
+
