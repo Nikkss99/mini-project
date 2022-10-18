@@ -1,0 +1,185 @@
+*{  
+
+    overflow-x: hidden;
+
+}
+:root{
+    --primary:linear-gradient(to right,#f524d4,#ffff);
+    --secondary:-webkit-linear-gradient(180deg,#9355b0,#f524d4);
+
+}
+body{
+    overflow-x: hidden;
+    margin: 0%;
+    background-color: #04132f;
+    font-family: 'Inter', sans-serif;
+}
+.Hero nav{
+    margin-top: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#active{
+    color:#f524d4;
+}
+.navigation_bar{
+    min-height: 10vh;
+    background-color:#04132f;    
+}
+.navigationElements{
+    /* margin-top: 8%; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: stretch;
+    min-width: 35%;
+    margin: 0% 0% 0% 6%;
+    
+}
+.navigationElements A{
+    color: #ffff;   
+    margin: 0% 1.5em;
+    font-size: 1.3em;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+.heading{
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+}
+.heading span h1{
+    font-size: 2rem;
+}
+
+#head1{
+    color:#ffff;
+    font-family: 'Inter', sans-serif;
+
+}
+#head2{
+    background: var(--primary);
+    background-clip: content-box;
+    -webkit-background-clip : text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Inter', sans-serif;
+    
+}
+.loginButton{
+    
+    min-width: fit-content;
+    height: 45px;
+    border-radius: 7%/24%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background : var(--secondary)
+}
+.loginButton:hover{
+    cursor: pointer;
+}
+.loginButton h4{
+    margin: 0% 40px;
+    font-size:2.2rem;
+}
+#login{
+    margin: 0% 5% ;
+}
+.baseClass{
+    min-height: fit-content;
+}
+.loginButton h4{
+    font-family: 'Inter', sans-serif;
+    color:white;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.selected_img{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25%;
+    
+}
+.leftimage{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0px 0px 100px;
+}
+.bidbox{
+    width: 40%;
+    min-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+    padding: 45px 0px 0px 200px;
+    
+}
+h1:hover{
+    color: #f524d4;
+    transform: scale(1.1);
+    transition: 1s;
+}
+#name{
+    padding-top: 5%;
+    font-weight: bolder;
+    font-size: 300%; 
+}
+#artist{
+    margin-top: 0;
+}
+
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0px 20px;
+}
+.container .heading1{
+ padding-bottom: 40px;
+ border-width: 300px;
+}
+.container .heading1 h3{
+    color: aliceblue;
+    font-size: 3rem;
+    font-weight: bolder;
+    border-bottom:  3px solid #ffff;
+    padding-bottom: 10px;  
+}
+
+.moreimages{
+    padding-top: 0%;
+}    
+
+.container .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 100px;
+    
+}
+.photo{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.photo img{
+    width: 60%;
+    padding-bottom: 20px;
+    border-radius: 6px;
+}
+
+ 
+  .photo img:hover{
+    transition: ease-in-out 1.3s;
+    transform: scale(1.2);
+  }
